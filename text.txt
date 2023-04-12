@@ -1,0 +1,50 @@
+--------------------------------------------
+npm init -y
+Wrote to /Users/gautam/Desktop/50-days-of-coding/11_cypher/gautamFood/package.json:
+
+{
+  "name": "gautamfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+1. Intro and setUp
+2. HTML Template
+3. Fonts and color
+4. Margin, padding and Borders
+5. Tailwind config
+6. Custom Fonts
+7. Using flexbox
+8. Responsive classes
+9. Cards
+10. Badges
+11. @apply Directives
+12. Grids
+13. Buttons
+14. Icons
+15. Hover Effects
+16. Responsive Nav(1)
+17. Responsive Nav(2)
+18. Transitions
+19. Wrap Up
+
+
+-------------------
+ <!-- <div class="flex items-center justify-start">
+            <div class="bg-red-500 h-4 w-4"></div>
+            <div class="bg-blue-500 h-8 w-4"></div>
+            <div class="bg-gray-500 h-12 w-4"></div>
+ 
+          </div> -->
+
+          ------------------------
+          // "scripts": {
+  //   "build-css": "tailwindcss build -i ./src/styles.css -o ./public/styles.css"
+  // }

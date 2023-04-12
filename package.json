@@ -1,0 +1,19 @@
+{
+  "name": "gautamfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ 
+  "scripts": {
+    "start": "concurrently \"npm run start:css\" \"react-scripts start\"",
+    "start:css": "tailwindcss -o src/tailwind.css --watch",
+    "build": "npm run build:css && react-scripts build",
+    "build-css": "NODE_ENV=production tailwindcss -o src/tailwind.css -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
